@@ -1,0 +1,41 @@
+.App{
+  /* background-color: rgba(54, 2, 78, 0.877); */
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('./images/million.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.startBox{
+  background-color: rgba(225,225,225, 0.4);
+  height: 20vh;
+  width: 30vw;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.startBox input{
+  height: 30px;
+  width: 80%;
+  outline: none;
+}
+
+.startBox .start-btn{
+  padding: 7px 15px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
